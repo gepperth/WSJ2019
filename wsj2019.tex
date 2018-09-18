@@ -67,6 +67,20 @@ blablabla
 
 \renewcommand{\thesection}{3}
 \section{Ausgangsfrage und Ziele des geplanten Vorhabens}
+
+\begin{itemize}
+	\item Ziel: Demonstratorsystems zur Visualisierung der Funktionsweise des überwachten Lernens mittels NN
+	\item Aufbau eines Handgestenerfassungs + Croppingsystems
+	\item Einspeisung + Visualisierung der erfassten Daten für die Benutzer
+	\item Visualisierung der Klassifikationsgüte (schlecht - mittel - gut)
+	\item Darstellung der Dateneinspeisung, des Trainings, der Veränderung des Netzes + der Verbesserung der Klassifikationsgüte: Lernen durch Beispiele
+	\item Deep Dreaming
+	\item Handposen vs. Handgesten
+	\item Forschungsaspekt: Inkrementelles Lernen
+
+\end{itemize}
+
+
 \subsection{Kurzzusammenfassung}
 \subsection{Grundsätzliche Zielsetzung}
 %
@@ -87,7 +101,16 @@ lernen der einschränkungen: linek hand trainieren, rechte testen --> problem!
 
 \renewcommand{\thesection}{5}
 \section{Darstellung des Eigeninteresses/Eigenanteils}
+Die FH Fulda hat tiefgehende Kompetenzen im Bereich des Maschinellen Lernens und modernen Interaktionstechniken. Im Bereich der modernen Interaktionstechniken (insb. Freihandgesten) wurde in bilateralen Forschungsvorhaben ein Demonstrator zur Erkennung von Handgesten mittels 3D-Sensorik entwickelt. Mit Hilfe dieses Demonstrators konnten zahlreiche Erkenntnisse im Bereich des überwachten Lernens, der Sensordatenfusion und der Messung der kognitiven Last im Strassenverkehr gewonnen werden. So wurde in einem kooperativen Forschungsvorhaben nachgewiesen, dass die tatsächliche Ablenkung im Strassenverkehr während der Benutzung von Freihandgesten zur Steuerung von Infotainmentsystemen geringer ist als während der Bedienung durch Touchgesten oder Verwendung analoger Schaltelemente \ref{xxx}. 
 
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=0.7\textwidth]{images/simulator.png}
+	\caption{Simulator}
+	\label{fig1}
+\end{figure}
+
+Hierfür wurde der Demonstrator mit einem Strassenverkehrssimulator gekoppelt und somit konnten realistische Test mittels genormter Messanalysen durchgeführt werden. Aufbauend auf dem Demonstator wurden darüber hinaus zahlreiche Forschungsergebnisse im Bereich der 3D Sensordatenfusion und der mehrstufigen Klassifikation erzielt und veröffentlicht. So waren grundlegende Erkenntnisse, dass Daten aus Time-of-Flight Kameras sowohl früh als auch spät fusionieren um eine Verbesserung der Erkennungsrate zu erzielen \ref{XXX}. Dieses ist insbesondere dahingehend interessant, da es unterschiedliche Performancegewinne des Systems nach sich zieht, was insbesondere für Handgestenerkennung in Echtzeit von hoher Praxisrelevanz ist. Darüber hinaus wurde mit Hilfe von mehrstufigen Neuronalen Netzen nachgewisen, dass man Informationen aus bereits trainierten Netzen verwenden kann, um eine verbesserte Gesamtperformance des Systems zu erreichen, indem man die Erkennungsgüte mit vortrainierten Netzen stabilisiert \ref{XXX}. Diese Erkenntnisse bildeten die Grundlage für die Erkennung von Handposen und die Erkennung von dynamischen Handgesten auf Basis stabiler Posen \ref{XXX}. Letztlich wurde durch den Einsatz von Deep Learning Verfahren ein eigener Ansatz entwickelt, mittels dessen Erkenntnisse aus dem Bereich der 2D-Bilderkennung in den 3D-Raum übertragen werden konnten \ref{XXX}.  
 
 \renewcommand{\thesection}{6}
 \section{Nachhaltigkeit,Übertragbarkeit}
@@ -103,11 +126,11 @@ Einsetzbarkeit in der Lehre
 \renewcommand{\thesection}{8}
 \section{Finanzierungsplan}
 mitarbeiter E11
-Sensoren 1000€
-Rechner 15000€
+Sensoren 1000Euro
+Rechner 15000Euro
 Depermässigung
 2 Hiwis 9 Monate f Visualisierung und Infrastruktur
-3 1T SSD-Festplatten für Daten: 2000€
+3 1T SSD-Festplatten für Daten: 2000Euro
 
 
 \renewcommand{\refname}{}
