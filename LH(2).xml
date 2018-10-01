@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xf:Feldgruppe_Formular xmlns:xf="http://ip.kp.dlr.de/Xfoerder" xmlns="http://www.w3.org/1999/xhtml" xmlns:spez="http://ip.kp.dlr.de/Xfoerder/Spezifikation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <xf:Feldgruppe_Eigenschaften>
+    <xf:Maske_Eigenschaften>
+      <xf:Einzelposition>
+        <xf:Antragsteller>Standard</xf:Antragsteller>
+        <xf:Haftungsausschluss>Die Inhalte dieses Dokuments werden mit größtmöglicher Sorgfalt recherchiert und implementiert. Fehler im Bearbeitungsvorgang sind dennoch nicht auszuschließen. Hinweise und Korrekturen senden Sie bitte an eine der unten aufgeführten Adressen von DLR-IP. Eine Haftung für die Richtigkeit, Vollstandigkeit und Aktualitat kann trotz sorgfaltiger Prüfung nicht übernommen werden. DLR-IP übernimmt insbesondere keinerlei Haftung für eventuelle Schaden oder Konsequenzen, die durch die direkte oder indirekte Nutzung der angebotenen Inhalte entstehen. Dieses Dokument ist ein technisches Hilfsmittel in der Formularerstellung. Es hat keine Relevanz im rechtlichen Sinne.</xf:Haftungsausschluss>
+        <xf:Hinweise>BITTE NICHT MANUELL BEARBEITEN! Dieses Formular wird elektronisch geprüft und verarbeitet. Eine manuelle Bearbeitung wird mit hoher Wahrscheinlichkeit dazu führen, a) dass das Dokument ungültig wird und nicht verarbeitet, insbesondere nicht eingereicht werden kann, oder b) dass manuelle Änderungen beim Einlesen überschrieben werden und unerwartete Ergebnisse verursachen.</xf:Hinweise>
+        <xf:IstAnhangPflicht>Nein</xf:IstAnhangPflicht>
+        <xf:XSD_Version>3.2.0</xf:XSD_Version>
+        <xf:easyOnlineKennung>100378414</xf:easyOnlineKennung>
+        <xf:easyOnlineVersion_aktuell>easyOnline 3.0.1.1.10182</xf:easyOnlineVersion_aktuell>
+        <xf:easyOnlineVersion>easyOnline 3.0.1.1.10182</xf:easyOnlineVersion>
+        <xf:letzte_Benutzung>2018-10-01</xf:letzte_Benutzung>
+      </xf:Einzelposition>
+    </xf:Maske_Eigenschaften>
+  </xf:Feldgruppe_Eigenschaften>
+  <xf:Feldgruppe_Basisdaten>
+    <xf:Feldgruppe_KerndatenFinanzplan>
+      <xf:Maske_KerndatenFinanzplan>
+        <xf:Einzelposition>
+          <xf:Mandant>Bundesministerium für Bildung und Forschung</xf:Mandant>
+          <xf:Foerdermassnahme>WIKO</xf:Foerdermassnahme>
+          <xf:Foerderbereich>WISSENSCHAFTSJAHR19</xf:Foerderbereich>
+          <xf:FoerdermassnahmeLang>Wissenschaftskommunikation</xf:FoerdermassnahmeLang>
+          <xf:FoerderbereichLang>Wissenschaftsjahr 2019</xf:FoerderbereichLang>
+          <xf:Formulartyp>SKI</xf:Formulartyp>
+          <xf:KennungAntragsverfahren>N</xf:KennungAntragsverfahren>
+          <xf:KennungAntragsverfahrenLang>Projektskizze</xf:KennungAntragsverfahrenLang>
+          <xf:von>2019-03-01</xf:von>
+          <xf:bis>2019-12-31</xf:bis>
+          <xf:von_Jahr>2019</xf:von_Jahr>
+          <xf:bis_Jahr>2019</xf:bis_Jahr>
+          <xf:Waehrung>EUR</xf:Waehrung>
+          <xf:Kennzeichen_Datenschutzerklaerung>Ja</xf:Kennzeichen_Datenschutzerklaerung>
+          <xf:Antragsdatum>2018-10-01</xf:Antragsdatum>
+          <xf:Antragsort>Fulda</xf:Antragsort>
+        </xf:Einzelposition>
+      </xf:Maske_KerndatenFinanzplan>
+    </xf:Feldgruppe_KerndatenFinanzplan>
+    <xf:Feldgruppe_Vorhabenbeschreibung>
+      <xf:Maske_Vorhabenbeschreibung>
+        <xf:Einzelposition>
+          <xf:Akronym>LH</xf:Akronym>
+          <xf:Thema>Lernen in Handarbeit</xf:Thema>
+          <xf:Beschreibung1>Das Projekt hat zum Ziel, ein interaktives Demonstrationssystem zur Veranschaulichung der Arbeitsweise maschinellen Lernens zu erstellen. 
+Gegenstand des Lernens sind Handposen, die dem integrierten maschinellen Lernverfahren interaktiv durch direkte Demonstration vermittelt werden, bzw. welche das System nach
+erfolgter Demonstration erkennt.  Hierbei wird nach jeder Erkennung der interne Zustand des Lernverfahrens, welcher zu einer Entscheidung geführt hat, visualisiert. 
+Die hauptsächlichen Erkenntnisse zum maschinellen Lernen, die vermittelt werden sollen, lauten wie folgt: zunächst soll klargemacht werden, dass maschinelles Lernen alles andere als unfehlbar ist, vor allem dann, wenn Anzahl und Qualität der Daten unzureichend sind. Weiterhin soll durch eine detaillierte Visualisierung des internen Zustands des Lernverfahrens dargestellt werden, dass die grundsätzliche Arbeitsweise solcher Lernverfahren keine "schwarze Magie" darstellt, sondern auf anschaulicher Ebene  verstanden werden kann. 
+Zu guter Letzt soll mit den im Laufe der Demonstration trainierten Handposen eine Applikation oder ein Spiel gesteuert werden, um die Praxisrelevanz zu verdeutlichen und zu transportieren, dass maschinelles Lernen auch großes Potential für Unterhaltung und Amüsement bietet.</xf:Beschreibung1>
+          <xf:Schreibschutz>Standard</xf:Schreibschutz>
+        </xf:Einzelposition>
+      </xf:Maske_Vorhabenbeschreibung>
+    </xf:Feldgruppe_Vorhabenbeschreibung>
+    <xf:Feldgruppe_Zusatzinformationen>
+      <xf:Maske_Zusatzinformationen>
+        <xf:Einzelposition>
+          <xf:CB1>trifft zu</xf:CB1>
+          <xf:CB2>trifft zu</xf:CB2>
+          <xf:CB3>trifft nicht zu</xf:CB3>
+          <xf:CB4>trifft nicht zu</xf:CB4>
+          <xf:CB5>trifft zu</xf:CB5>
+          <xf:CB6>trifft nicht zu</xf:CB6>
+          <xf:CB7>trifft nicht zu</xf:CB7>
+          <xf:CB8>trifft zu</xf:CB8>
+          <xf:CB9>trifft zu</xf:CB9>
+          <xf:CB10>trifft zu</xf:CB10>
+          <xf:CB11>trifft nicht zu</xf:CB11>
+          <xf:CB12>trifft nicht zu</xf:CB12>
+          <xf:CB13>trifft zu</xf:CB13>
+          <xf:CB14>trifft zu</xf:CB14>
+          <xf:CB15>trifft zu</xf:CB15>
+          <xf:CB16>trifft zu</xf:CB16>
+          <xf:CB17>trifft zu</xf:CB17>
+          <xf:CB18>trifft nicht zu</xf:CB18>
+          <xf:OrtText>Fulda/Hessen</xf:OrtText>
+        </xf:Einzelposition>
+      </xf:Maske_Zusatzinformationen>
+    </xf:Feldgruppe_Zusatzinformationen>
+  </xf:Feldgruppe_Basisdaten>
+  <xf:Feldgruppe_Institutionen>
+    <xf:Feldgruppe_Institution_ZE>
+      <xf:Maske_Institution_ZE>
+        <xf:Einzelposition>
+          <xf:Name_ZE>Prof. Dr. Alexander GEPPERTH</xf:Name_ZE>
+          <xf:Adresssuche_ZE>Ja</xf:Adresssuche_ZE>
+          <xf:Strasse_ZE>Leipzigerstraße 123</xf:Strasse_ZE>
+          <xf:PLZ_Strasse_ZE>36037</xf:PLZ_Strasse_ZE>
+          <xf:Ort_Strasse_ZE>Fulda</xf:Ort_Strasse_ZE>
+          <xf:Land_ZE>Deutschland</xf:Land_ZE>
+          <xf:TelefonNr_ZE>+49 661 9640-3485</xf:TelefonNr_ZE>
+          <xf:E_Mail_Adresse_ZE>alexander.gepperth@cs.hs-fulda.de</xf:E_Mail_Adresse_ZE>
+          <xf:Web_Adresse_ZE>www.gepperth.net/alexander</xf:Web_Adresse_ZE>
+          <xf:Schreibschutz>Standard</xf:Schreibschutz>
+        </xf:Einzelposition>
+      </xf:Maske_Institution_ZE>
+    </xf:Feldgruppe_Institution_ZE>
+    <xf:Feldgruppe_Institution_ST>
+      <xf:Maske_Institution_ST>
+        <xf:Einzelposition>
+          <xf:Institution_ST>Ja</xf:Institution_ST>
+          <xf:Name_ST>Prof. Dr. Alexander GEPPERTH</xf:Name_ST>
+          <xf:Adresssuche_ST>Ja</xf:Adresssuche_ST>
+          <xf:Strasse_ST>Leipzigerstraße 123</xf:Strasse_ST>
+          <xf:PLZ_Strasse_ST>36037</xf:PLZ_Strasse_ST>
+          <xf:Ort_Strasse_ST>Fulda</xf:Ort_Strasse_ST>
+          <xf:Land_ST>Deutschland</xf:Land_ST>
+          <xf:TelefonNr_ST>+49 661 9640-3485</xf:TelefonNr_ST>
+          <xf:E_Mail_Adresse_ST>alexander.gepperth@cs.hs-fulda.de</xf:E_Mail_Adresse_ST>
+          <xf:Web_Adresse_ST>www.gepperth.net/alexander</xf:Web_Adresse_ST>
+          <xf:Schreibschutz>Stufe1</xf:Schreibschutz>
+        </xf:Einzelposition>
+      </xf:Maske_Institution_ST>
+    </xf:Feldgruppe_Institution_ST>
+    <xf:Feldgruppe_Ansprechpartner_PL>
+      <xf:Maske_Ansprechpartner_PL>
+        <xf:Einzelposition>
+          <xf:Geschlecht_PL>Herr</xf:Geschlecht_PL>
+          <xf:akad_Grad_PL>Prof. Dr.</xf:akad_Grad_PL>
+          <xf:Vorname_PL>Alexander</xf:Vorname_PL>
+          <xf:Name_PL>Gepperth</xf:Name_PL>
+          <xf:Telefon_PL>+49 661 9640-3485</xf:Telefon_PL>
+          <xf:Email_PL>alexander.gepperth@cs.hs-fulda.de</xf:Email_PL>
+          <xf:Schreibschutz>Standard</xf:Schreibschutz>
+        </xf:Einzelposition>
+      </xf:Maske_Ansprechpartner_PL>
+    </xf:Feldgruppe_Ansprechpartner_PL>
+    <xf:Feldgruppe_Zusatzinformationen_2>
+      <xf:Maske_Zusatzinformationen_2 />
+    </xf:Feldgruppe_Zusatzinformationen_2>
+    <xf:Feldgruppe_Zusatzinformationen_3>
+      <xf:Maske_Zusatzinformationen_3>
+        <xf:Einzelposition />
+      </xf:Maske_Zusatzinformationen_3>
+    </xf:Feldgruppe_Zusatzinformationen_3>
+  </xf:Feldgruppe_Institutionen>
+  <xf:Feldgruppe_Finanzplan>
+    <xf:Feldgruppe_FinanzdatenSkizze>
+      <xf:Maske_FinanzdatenSkizze>
+        <xf:Tabellenposition xf:TabID="1" xf:Jahr="2019">
+          <xf:Kosten>52000</xf:Kosten>
+          <xf:Zuwendung>52000</xf:Zuwendung>
+          <xf:Foerderquote>100</xf:Foerderquote>
+          <xf:BetragSumme>0</xf:BetragSumme>
+        </xf:Tabellenposition>
+        <xf:Gesamtansicht xf:TabID="1" xf:Jahr="Gesamt">
+          <xf:Kosten>52000</xf:Kosten>
+          <xf:Zuwendung>52000</xf:Zuwendung>
+          <xf:Foerderquote>100</xf:Foerderquote>
+          <xf:BetragSumme>0</xf:BetragSumme>
+        </xf:Gesamtansicht>
+      </xf:Maske_FinanzdatenSkizze>
+    </xf:Feldgruppe_FinanzdatenSkizze>
+    <xf:Feldgruppe_Projektpartner>
+      <xf:Maske_Projektpartner>
+        <xf:Tabellenposition xf:TabID="1" xf:Jahr="2019">
+          <xf:ZeileNr>1</xf:ZeileNr>
+          <xf:Rolle_AU>Projektkoordination</xf:Rolle_AU>
+          <xf:Name_AU>Prof. Dr. Alexander GEPPERTH</xf:Name_AU>
+          <xf:Anschrift_AU>Leipzigerstraße 123, 36037 Fulda</xf:Anschrift_AU>
+          <xf:Name_Person_AU>Alexander Gepperth</xf:Name_Person_AU>
+          <xf:EK_Betrag>52000</xf:EK_Betrag>
+          <xf:Prozentsatz>100</xf:Prozentsatz>
+          <xf:BetragAusProzent>52000</xf:BetragAusProzent>
+          <xf:BetragSumme>52000</xf:BetragSumme>
+        </xf:Tabellenposition>
+        <xf:Gesamtansicht xf:TabID="1" xf:Jahr="Gesamt">
+          <xf:ZeileNr>1</xf:ZeileNr>
+          <xf:Rolle_AU>Projektkoordination</xf:Rolle_AU>
+          <xf:Name_AU>Prof. Dr. Alexander GEPPERTH</xf:Name_AU>
+          <xf:Anschrift_AU>Leipzigerstraße 123, 36037 Fulda</xf:Anschrift_AU>
+          <xf:Name_Person_AU>Alexander Gepperth</xf:Name_Person_AU>
+          <xf:EK_Betrag>52000</xf:EK_Betrag>
+          <xf:Prozentsatz>100</xf:Prozentsatz>
+          <xf:BetragAusProzent>52000</xf:BetragAusProzent>
+          <xf:BetragSumme>52000</xf:BetragSumme>
+        </xf:Gesamtansicht>
+        <xf:Einzelposition>
+          <xf:Foerderquote>100</xf:Foerderquote>
+          <xf:Berechnungsbasis>Z</xf:Berechnungsbasis>
+          <xf:rpf_Begruendung>Finanzierung der Dienststelle der Projektkoordinators + Ausstattung</xf:rpf_Begruendung>
+        </xf:Einzelposition>
+        <xf:Zwischensumme xf:Jahr="2019">
+          <xf:BetragAusProzent>52000</xf:BetragAusProzent>
+          <xf:BetragSumme>52000</xf:BetragSumme>
+        </xf:Zwischensumme>
+        <xf:Zwischensumme xf:Jahr="Gesamt">
+          <xf:BetragAusProzent>52000</xf:BetragAusProzent>
+          <xf:BetragSumme>52000</xf:BetragSumme>
+        </xf:Zwischensumme>
+      </xf:Maske_Projektpartner>
+      <xf:Zwischensumme xf:Jahr="2019">
+        <xf:BetragAusProzent>52000</xf:BetragAusProzent>
+        <xf:BetragSumme>52000</xf:BetragSumme>
+      </xf:Zwischensumme>
+      <xf:Zwischensumme xf:Jahr="Gesamt">
+        <xf:BetragAusProzent>52000</xf:BetragAusProzent>
+        <xf:BetragSumme>52000</xf:BetragSumme>
+      </xf:Zwischensumme>
+    </xf:Feldgruppe_Projektpartner>
+  </xf:Feldgruppe_Finanzplan>
+  <xf:Feldgruppe_Reiter1>
+    <xf:Feldgruppe_Zusatzinformationen_4>
+      <xf:Maske_Zusatzinformationen_4>
+        <xf:Einzelposition>
+          <xf:CB40>Ja</xf:CB40>
+        </xf:Einzelposition>
+      </xf:Maske_Zusatzinformationen_4>
+    </xf:Feldgruppe_Zusatzinformationen_4>
+  </xf:Feldgruppe_Reiter1>
+</xf:Feldgruppe_Formular>
+
