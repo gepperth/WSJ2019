@@ -83,13 +83,10 @@ Projektleiter des Projektes ist Herr Prof. Dr. Alexander Gepperth. Prof. Geppert
 
 \subsection{Kurzzusammenfassung}
 Das Projekt hat zum Ziel, ein interaktives Demonstrationssystem zur Veranschaulichung der Arbeitsweise maschinellen Lernens zu erstellen. 
-Gegenstand des Lernens sind Handposen, die dem System interaktiv durch direkte Demonstration vermittelt werden, bzw. welche das System nach
-erfolgter Demonstration klassifiziert, wobei nach jeder Klassifikation der interne Zustand des Lernverfahrens visualisiert wird, welcher zu einer Entscheidung geführt hat. 
-Die hauptsächlichen Erkenntnisse zum maschinellen Lernen, welche vermittelt werden sollen, lauten wie folgt: zunächst soll kalrgemacht werden, dass maschinelles Lernen nicht unfehlbar ist, sondern
-Fehler machen kann, was vor allem dann geschieht, wenn Anzahl und Qualität der Daten unzureichend ist. Weiterhin soll durch eine anschauliche Visualisierung des internen Zustands der LErnverfahrens erreicht werden, dass die grundsätzliche Arbeitsweise solcher Lernverfahren keine "schwarze Magie" darstellt, sondern auf anschaulicher Ebene  verstanden werden kann. 
-%Zu guter Letzt soll der Demonstrator dazu dienen, fundamentale Konzepte des maschinellen Lernens, wie z.B. Generalisierung oder Überanpassung, auf anschauliche Art zu verdeutlichen. 
-Zu guter Letzt soll mit den im Laufe der Demonstration trainierten Handposen eine Applikation oder ein Spiel gesteuert werden, um zu verdeutlichen dass maschinelles Lernen auch großes Potential
-für Unterhaltung und Amüsement in sich trägt. 
+Gegenstand des Lernens sind Handposen, die dem integrierten maschinellen Lernverfahren interaktiv durch direkte Demonstration vermittelt werden, bzw. welche das System nach
+erfolgter Demonstration erkennt.  Hierbei wird nach jeder Erkennung der interne Zustand des Lernverfahrens, welcher zu einer Entscheidung geführt hat, visualisiert. 
+Die hauptsächlichen Erkenntnisse zum maschinellen Lernen, die vermittelt werden sollen, lauten wie folgt: zunächst soll klargemacht werden, dass maschinelles Lernen alles andere als unfehlbar ist, vor allem dann, wenn Anzahl und Qualität der Daten unzureichend sind. Weiterhin soll durch eine detaillierte Visualisierung des internen Zustands des Lernverfahrens dargestellt werden, dass die grundsätzliche Arbeitsweise solcher Lernverfahren keine "schwarze Magie" darstellt, sondern auf anschaulicher Ebene  verstanden werden kann. 
+Zu guter Letzt soll mit den im Laufe der Demonstration trainierten Handposen eine Applikation oder ein Spiel gesteuert werden, um die Praxisrelevanz zu verdeutlichen und zu transportieren, dass maschinelles Lernen auch großes Potential für Unterhaltung und Amüsement bietet. 
 %
 \subsection{Grundsätzliche Zielsetzung}
 %
@@ -98,11 +95,11 @@ die grundsätzliche Funktionsweise solcher Verfahren einfach nachzuvollziehen is
 Das wird erreicht, indem Benutzergruppen in die Lage versetzt werden, ihr "eigenes" Lernverfahren durch direkte Demonstration zu trainieren, wobei live visualisiert wird, {\it warum} ein Verfahren zu einer bestimmten Entscheidung kommt.
 %
 \renewcommand{\thesection}{4}
-\section{Ausführliche Vorhabensbeschreibung}
+\section{Ausführliche Vorhabensbeschreibung}\label{sec:besch}
 \subsection{Einsatzszenario}
 An der HAW Fulda existieren multiple Formate des Austauschs mit lokalen Schulen und der interessierten Öffentlichkeit: MINTMachClub\footnote{mint},Kinder-Universität\footnote{ku}, MINT-Labortage\footnote{mlt} sowie
 reguläre Besuche von Schulklassen, oft aus der gymnasialen Oberstufe zur Hinführung auf ein mögliches Studium. Generell ist maschinelles Lernen für diese Zielgruppen sehr interessant und dessen Sinnhaftigkeit leicht vermittelbar, weswegen sich Präsentationen bzw- Demonstrationen für diese Zielgruppen oft überschneiden und wiederholen, was ein standardisiertes Format sinnvoll macht. 
-Weiterhin ist allen Zielgruppen gemein, dass sie eher durch interaktive Lerhformate angesprochen und begeistert werden können, speziell in den niedrigeren Klassen. Hierbei macht es sicherlich Sinn, die Demonstration flexibel gestalten zu können:
+Weiterhin ist allen Zielgruppen gemein, dass sie eher durch interaktive Lehrformate angesprochen und begeistert werden können, speziell in den niedrigeren Klassen. Hierbei macht es sicherlich Sinn, die Demonstration flexibel gestalten zu können:
 rein interaktiv und relativ kurz für Schüler*innen ohne Informatik-Erfahrung, oder per API programmierbar für Oberstufenklassen im Rah,en eines Vormittagsprojekts. 
 %
 \subsection {Ablauf einer Demonstration}
@@ -115,18 +112,12 @@ Als letzte Demonstrationsphase sollen die Teilnehmer die dem System antrainierte
 die Steuerung eines Spiels bzw die Steuerung eines autonomen Roboters anbieten. Auch eine zur Verfügung Stellung der erkannten Handposen per ReST API ist denkbar, 
 wobei dann die Reaktion eines Computersystems auf eine bestimmte Handpose von fortgeschrittenen Teilnehmern im Rahmen einer Projetkarbeitsphase selbst programmiert werden kann.
 %
-lernen der einschränkungen: linek hand trainieren, rechte testen --> problem!
+% TODO lernen der einschränkungen: linek hand trainieren, rechte testen --> problem!
 \subsection{Technische Bausteine der Demonstration}
-Für die 
-{\bf 3D-Datenanalyse}
-{\bf Handposenerkennung und Klassifikation}
-{\bf Visualisierung}
-message: ist nur ein verfahren, keine Magie
+Für die Umsetzung des Demonstrators wird auf Techniken zurückgegriffen, welche bereits im Rahmen mehrerer Publikationen im Rahmen der Handposen- und Handgesterkennung implementiert und erprobt wurden \cite{gr1,gr2,gr3}, siehe auch Kap. \ref{sec:eigen}. Hierbei ist im Besonderen die Verarbeitung von 3D-Sensordaten, deren Transformation in kompakte aber aussagekräftige Beschreibungen (Deskriptoren) sowie die praxisorientierte Anwendung maschineller Lernverfahren, insbesondere neuronale Netze und DNNs. Die Implementierung kann auf einem einzelnen, allerdings leistungsfähigen Rechner mit High-End Grafikkarte statffinden, so dass sowohl die Sensordatenakquisition als auch deren Transformation in Deskriptoren sowie die Ausführung neuronaler Klassifkatoren mindestens 5 mal pro Sekunde erfolgen kann, idealweise öfter. Die Steuerung und Konfiguration der einzelnen Phasen des Demonstrators soll durch ein einfaches Sprachinterface erfolgen.
 %
-\renewcommand{\thesection}{5}
-\section{Darstellung des Eigeninteresses/Eigenanteils}
-%
-Die HAW Fulda hat tiefgehende Kompetenzen im Bereich des Maschinellen Lernens und modernen Interaktionstechniken. Im Bereich der modernen Interaktionstechniken (insb. Freihandgesten) wurde in bilateralen Forschungsvorhaben ein Demonstrator zur Erkennung von Handgesten mittels 3D-Sensorik entwickelt. Mit Hilfe dieses Demonstrators konnten zahlreiche Erkenntnisse im Bereich des überwachten Lernens, der Sensordatenfusion und der Messung der kognitiven Last im Strassenverkehr gewonnen werden. So wurde in einem kooperativen Forschungsvorhaben nachgewiesen, dass die tatsächliche Ablenkung im Strassenverkehr während der Benutzung von Freihandgesten zur Steuerung von Infotainmentsystemen geringer ist als während der Bedienung durch Touchgesten oder Verwendung analoger Schaltelemente \cite{kopinski2016touch}. 
+\section{Darstellung des Eigenanteils}\label{sec:eigen}
+Die HAW Fulda hat tiefgehende Kompetenzen im Bereich des Maschinellen Lernens und modernen Interaktionstechniken. Im Bereich der modernen Interaktionstechniken (insb. Freihandgesten) wurde in bilateralen Forschungsvorhaben bereits ein Demonstrator zur Erkennung von Handgesten mittels 3D-Sensorik entwickelt (welcher hier mit geringfügigen Änderungen wieder zum Einsatz kommen soll). Mit Hilfe dieses Demonstrators konnten zahlreiche Erkenntnisse im Bereich des überwachten Lernens, der Sensordatenfusion und der Messung der kognitiven Last im Strassenverkehr gewonnen werden. So wurde in einem kooperativen Forschungsvorhaben nachgewiesen, dass die tatsächliche Ablenkung im Strassenverkehr während der Benutzung von Freihandgesten zur Steuerung von Infotainmentsystemen geringer ist als während der Bedienung durch Touchgesten oder Verwendung analoger Schaltelemente \cite{kopinski2016touch}. 
 %
 \begin{figure}[ht]
 	\centering
@@ -137,17 +128,18 @@ Die HAW Fulda hat tiefgehende Kompetenzen im Bereich des Maschinellen Lernens un
 %
 Hierfür wurde der Demonstrator mit einem Strassenverkehrssimulator gekoppelt und somit konnten realistische Test mittels genormter Messanalysen durchgeführt werden. Aufbauend auf dem Demonstator wurden darüber hinaus zahlreiche Forschungsergebnisse im Bereich der 3D Sensordatenfusion und der mehrstufigen Klassifikation erzielt und veröffentlicht. So waren grundlegende Erkenntnisse, dass Daten aus Time-of-Flight Kameras sowohl früh als auch spät fusionieren um eine Verbesserung der Erkennungsrate zu erzielen \ref{kopinskineural}. Dieses ist insbesondere dahingehend interessant, da es unterschiedliche Performancegewinne des Systems nach sich zieht, was insbesondere für Handgestenerkennung in Echtzeit von hoher Praxisrelevanz ist. Darüber hinaus wurde mit Hilfe von mehrstufigen Neuronalen Netzen nachgewiesen, dass man Informationen aus bereits trainierten Netzen verwenden kann, um eine verbesserte Gesamtperformance des Systems zu erreichen, indem man die Erkennungsgüte mit vortrainierten Netzen stabilisiert \ref{kopinski2015pragmatic}. Diese Erkenntnisse bildeten die Grundlage für die Erkennung von Handposen und die Erkennung von dynamischen Handgesten auf Basis stabiler Posen \ref{kopinski2015real}. Letztlich wurde durch den Einsatz von Deep Learning Verfahren ein eigener Ansatz entwickelt, mittels dessen Erkenntnisse aus dem Bereich der 2D-Bilderkennung in den 3D-Raum übertragen werden konnten \ref{kopinski2016deep}.  
 %
+% TODO: Daten von mehreren Personen!
+% TODO: Zitate!
 \renewcommand{\thesection}{6}
 \section{Nachhaltigkeit,Übertragbarkeit}
-Arbeiten zum inkrementellen Lernen
-Arbeiten an Gestenerkennung
-Arbeiten an Sequenzerkennung
-Einfache Datensammlung
-Einsetzbarkeit in der Lehre
+\textbf {Forschungsprojekte} Der Antragsteller hat umfangreiche Vorarbeiten im Bereich des maschinellen Lernens erbracht, vor allem im Bereich der Handposen- und Gestenerkennung, der Objekterkennung sowie des inkrementellen Lernens mit neuronalen Netzen (DNNs). 
+Ein implementierter Demonstrator so wie er in Kap. \ref{sec:besch} beschreiben ist, könnte für weiter gehende Forschungsprojekte und Forschungsanträge des Antragstellers von großem Nutzen sein, hauptsächlich aufgrund der Fähigkeit, Handposen und Handgesten von mehreren Personen gleichzeitig aufzunehmen. Dies kann die Akquisition eine großen Menge qualitativ hochwertiger Trainingsdaten, deren Gewinnung ja stets das Hauptproblem eines jeden Projekts im Bereich des maschinellen Lernens darstellt, stark vereinfachen. Des Weiteren kann der Demonstrator auch dazu dienen, methodische Fortschritte einfach zu verdeutlichen (z.B. als zusätzliche Ressourcen beim Einreichen eines Konferenzbeitrags oder als Live-Demo während eines Vortrags). Hierbei ist im Besonderen an die Arbeiten des Antragstellers zum inkrementellen Lernen zu denken, welche untersuchen, wie DNNs neue Kenntnisse dazulernen können \cite{xx}. Anhand des Demonstrators lässt sich die Tatsache, dass ein Lernverfahren eine neue, soeben demonstrierte Handpose erfolgreich dazugelernt und die bereits vorher beherrschten nicht vergessen hat, lässt sich einfach und anschaulich demonstrieren.
 
+\textbf{Lehre}
+Der Antragsteller ist Modulverantwortlich für die Module "Künstliche Intelligenz" und "Machine Learning" auf Bachelor-bzw. Master-Niveau. Vor allem auf Bachelor-Niveau wo die mathematischen Grundlagen des maschinellen Lernens noch nicht vertieft eingeführt werden können, wird es ein Demonstrator für Handposenerkennung ermöglichen, auch konzeptuell abstrakte Ideen wie z.B. Overfitting, Underfitting, Sampling Bias oder Generalisierung anschaulich zu erläutern. Selbstverständlich können auch die vom Demonstrator aufgenommenen Daten auch für kleine Projekte im Rahmen der Lehrveranstaltungen eingesetzt werden. Auch ein Einsatz im Bereich der Vorlesung "Robotik" ist sinnvoll, in welcher evtl. eine Handposensteuerung für autonome Roboter als Projekte umgesetzt werden kann.
+%
 \renewcommand{\thesection}{7}
 \section{Zeitplan}
-
 \begin{itemize}
 \item Projektmanagement Maerz-Dez
 \item Aufbau des Systems: Maerz - August
@@ -157,16 +149,20 @@ Einsetzbarkeit in der Lehre
 
 \renewcommand{\thesection}{8}
 \section{Finanzierungsplan}
-50\% Stelle Data Science E11 - TVL 11: 27.058,19
-50\% Stelle Machine Learning E11 - TVL 11: 27.058,19
-Sensoren 1000Euro
-Rechner 15000Euro
-Depermässigung
-2 Hiwis 9 Monate f Visualisierung und Infrastruktur
-3 1T SSD-Festplatten für Daten: 2000Euro
+Es werden die folgenden Kostenpunkte zur Durchführung de Projekts angesetzt. Jeder Punkt wird einzeln im Hinblick auf seine Notwendigkeit und Verhältnismäßigkeit 
+diskutiert und begründet. Generell wird davon ausgegangen, dass 4 Demonstratoren gleichzeitig ausgerüstet werfen, um bei "parallelen" Veranstaltungen jeder Gruppe eine Demonstration zeigen zu können. Dies ist bei Projekten, wo viele Schüler an einem oder zwei Tagen ein Projektprogramm absolvieren, relativ häufig der Fall und begründet diese Grundsatzentscheidung.
+\begin{itemize}
+%50\% Stelle Data Science E11 - TVL 11: 27.058,19
+\item \textbf{1 Wissenschaftliche Mitarbeiter*in E11 - TVL 11/2 (27.058,19\euro)} Diese Mitarbeiter*in soll die Demonstrator-Plattform unter Anleitung des Antragstellers und unter Einbeziehung bereits existierenden Programmcodes implementieren. Gesucht wird eine Person mit stark ausgeprägten Programmierfähigkeiten und Erfahrung in der Sensordatenverbeitung. Da 
+zur Implementierung des Demonstrator-Plattform hauptsächlich bereits beschriebene System umgesetzt werden sollen, sind außer Grundkenntnissen keine speziellen Kenntnisse des maschinellen Lernens nötig, was die Suche nach geeigneten Kandidaten deutlich erleichtern sollte.
+\item \textbf{Sensoren: 2000\euro} Hier ist die Beschaffung von ca. 6-8 3D-Sensoren (2 für jeden der 4 Demonstratoren) geplant. Diese Sensoren sollten bei Sonneneinstrahlung robust funktioneren, was reine Structured-Light-Ansätze ausschließt. Deshalb sind Hybridlösungen (Stereo + Structured Light) empfehlenswert, wie sie gegenwärtig für ca. 200\euro/Stück verfügbar sind.
+\item \textbf{Rechner (10000\euro)} Es werden 4 möglichst identische Rechner plus eine Arbeitsplatzrechner benötigt. Ausstattung muss ein starkes Netzteil beinhalten (um die Grafikkarte zu versorgen), sowie neben einer leistungsfähigen Grafikkarte für das Training der maschinellen Lernverfahren ebenfalls über ausreichend Speicher verfügen muss. 
+\item \textbf{Deputatsermässigung Abtragsteller 2SWS 1 Jahr (2000\euro)} Dies ist erforderlich, um in ausreichendem Maße an der Projektarbeit teilnehmen zu können, insbesondere um die Projektmitarbeiter*in anzuleiten.
+\item \textbf{2 studentische Hilfskräfte für jeweils 6 Monate, 20h/Woche (8000\euro)} Notwendig für funktionale Tests des Demonstrators, Bugfixing sowie um Aspekte der Usability zu verifizieren. Ebenso zum Aufbau des Demonstrators und zur Durchführung von Demonstrationen.
+\end{itemize}
 
 
-\renewcommand{\refname}{}
+%\renewcommand{\refname}{}
 \bibliographystyle{abbrv}
 \bibliography{bib}
 %
